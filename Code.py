@@ -16,7 +16,7 @@ def dehaze(img):
     
 plt.figure(figsize=(15,15))    
 
-img = cv2.imread('C:\\Users\\Sanchita\\Desktop\\IVP_Assignment1\\haze1.tif')
+img = cv2.imread('..\\haze1.tif')
 new_img=cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
 plt.subplot(2,2,1)
 plt.title("input image")
@@ -28,7 +28,7 @@ plt.subplot(2,2,2)
 plt.title("adjusted image")
 plt.imshow(gamma)
 
-img = cv2.imread('C:\\Users\\Sanchita\\Desktop\\IVP_Assignment1\\haze2.tif')
+img = cv2.imread('..\\haze2.tif')
 new_img=cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
 plt.subplot(2,2,3)
 plt.title("input image")
